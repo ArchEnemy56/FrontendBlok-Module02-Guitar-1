@@ -20,19 +20,19 @@ a {
     &::before {
         content: '';
         display: block;
-        width: 100%;
+        width: 90%;
         height: 27px;
         position: absolute;
         background-color: $accent;
         top: 0;
-        left: 0;
+        left: 10px;
         z-index: -1;
     }
     &::after {
         content: '';
         display: block;
         width: 100%;
-        height: 24px;
+        height: 25px;
         background-image: url(../images/svg/header_bottom.svg);
         background-repeat: no-repeat;
         background-size: contain;
